@@ -31,4 +31,8 @@ public class ProgramaTest extends TestCase{
         int resultado=Programa.suma(-2,-3);
         assertEquals(resultado,-5);
     }
+    public void testPrograma5(){
+        int resultado=Programa.suma(0,0);
+        assertEquals(resultado,0);
+    }
 }
